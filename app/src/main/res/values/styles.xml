@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DotaTextStyle">
+        <item name="android:textColor">#D4AF37</item> <!-- Золотой цвет -->
+        <item name="android:shadowColor">#000000</item> <!-- Черная тень -->
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:fontFamily">@font/dota_font</item> <!-- Наш шрифт -->
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
