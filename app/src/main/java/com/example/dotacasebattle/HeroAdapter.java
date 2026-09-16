@@ -1,4 +1,4 @@
-package com.example.dotacasebattle;
+package com.example.sampleapp;
 
 import android.graphics.Color;
 import android.view.LayoutInflater;
