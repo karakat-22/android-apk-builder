@@ -1,4 +1,4 @@
-package com.example.dotacasebattle;
+package com.example.sampleapp;
 
 import java.util.List;
 import java.util.Random;
