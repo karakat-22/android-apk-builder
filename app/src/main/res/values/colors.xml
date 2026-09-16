@@ -8,6 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <!-- Ваш кастомный цвет для иконки -->
     <color name="ic_launcher_background">#1A1A2E</color>
 </resources>
