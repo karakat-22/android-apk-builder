@@ -1,4 +1,4 @@
-package com.example.dotacasebattle;
+package com.example.sampleapp;
 
 import java.util.ArrayList;
 import java.util.List;
