@@ -1,4 +1,4 @@
-package com.example.dotacasebattle;
+package com.example.sampleapp;
 
 import android.content.Context;
 import android.content.SharedPreferences;
