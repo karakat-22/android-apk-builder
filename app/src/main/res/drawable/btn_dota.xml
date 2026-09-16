@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Тёмный фон кнопки -->
+    <solid android:color="#2A1A1A" />
+    <!-- Золотая обводка -->
+    <stroke android:width="2dp" android:color="#D4AF37" />
+    <!-- Закругление углов -->
+    <corners android:radius="8dp" />
+    <padding android:left="16dp" android:top="12dp" android:right="16dp" android:bottom="12dp" />
+</shape>
