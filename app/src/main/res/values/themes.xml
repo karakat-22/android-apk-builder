@@ -1,9 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.SampleApp" parent="Theme.Material3.DayNight">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Базовая тема приложения -->
+    <style name="Theme.SampleApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основные цвета -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Вторичные цвета -->
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
+        
+        <!-- 🌟 ПРИМЕНЕНИЕ ШРИФТА КО ВСЕМУ ИНТЕРФЕЙСУ -->
+        <!-- android:fontFamily меняет шрифт у обычных текстов -->
+        <item name="android:fontFamily">@font/dota_font</item>
+        <!-- fontFamily (без android:) меняет шрифт у кнопок и вкладок Material Design -->
+        <item name="fontFamily">@font/dota_font</item>
+        
+        <!-- Статус-бар -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
-
-    <style name="Theme.SampleApp" parent="Base.Theme.SampleApp" />
 </resources>
