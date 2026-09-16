@@ -4,55 +4,52 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="24dp"
-    android:background="#1a1a2e">
+    android:padding="24dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Открыть кейс"
-        android:textColor="#e94560"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:text="ВЫБЕРИТЕ КЕЙС"
+        android:textSize="28sp"
+        style="@style/DotaTextStyle"
         android:layout_marginBottom="32dp" />
 
-    <!-- Кнопка для кейса Силы -->
     <Button
         android:id="@+id/btnStrength"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="💪 Кейс Силы"
-        android:textSize="18sp"
-        android:backgroundTint="#c62828"
+        android:text="💪 СИЛА"
+        android:textSize="20sp"
+        android:textColor="#D4AF37"
+        android:background="@drawable/btn_dota"
         android:layout_marginBottom="16dp" />
 
-    <!-- Кнопка для кейса Ловкости -->
     <Button
         android:id="@+id/btnAgility"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="🗡️ Кейс Ловкости"
-        android:textSize="18sp"
-        android:backgroundTint="#2e7d32"
+        android:text="🗡️ ЛОВКОСТЬ"
+        android:textSize="20sp"
+        android:textColor="#D4AF37"
+        android:background="@drawable/btn_dota"
         android:layout_marginBottom="16dp" />
 
-    <!-- Кнопка для кейса Интеллекта -->
     <Button
         android:id="@+id/btnIntelligence"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="🧠 Кейс Интеллекта"
-        android:textSize="18sp"
-        android:backgroundTint="#1565c0"
+        android:text="🧠 ИНТЕЛЛЕКТ"
+        android:textSize="20sp"
+        android:textColor="#D4AF37"
+        android:background="@drawable/btn_dota"
         android:layout_marginBottom="16dp" />
 
-    <!-- Кнопка для кейса Универсалов -->
     <Button
         android:id="@+id/btnUniversal"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="⚡ Кейс Универсалов"
-        android:textSize="18sp"
-        android:backgroundTint="#6a1b9a" />
-
+        android:text="⚡ УНИВЕРСАЛЫ"
+        android:textSize="20sp"
+        android:textColor="#D4AF37"
+        android:background="@drawable/btn_dota" />
 </LinearLayout>
