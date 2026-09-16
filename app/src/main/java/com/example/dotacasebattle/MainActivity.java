@@ -1,4 +1,5 @@
-package com.example.dotacasebattle;
+package com.example.sampleapp;
+
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
