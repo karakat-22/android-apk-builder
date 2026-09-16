@@ -1,4 +1,4 @@
-package com.example.dotacasebattle;
+package com.example.sampleapp;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
