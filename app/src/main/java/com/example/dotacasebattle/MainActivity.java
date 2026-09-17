@@ -1,6 +1,5 @@
 package com.example.sampleapp;
 
-
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
@@ -20,7 +19,11 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(new ViewPagerAdapter(this));
 
         new TabLayoutMediator(tabLayout, viewPager,
-            (tab, position) -> tab.setText(position == 0 ? "Кейсы" : "Инвентарь")
+            (tab, position) -> {
+                if (position == 0) tab.setText("КЕЙСЫ");
+                else if (position == 1) tab.setText("ИНВЕНТАРЬ");
+                else tab.setText("КОЛЛЕКЦИЯ");
+            }
         ).attach();
     }
 }
